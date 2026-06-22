@@ -1,0 +1,54 @@
+# ── Jupyter / Notebook ─────────────────────────────────────────────
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ── Jupyter Notebook server artifacts ──────────────────────────────
+.virtual_documents/
+anaconda_projects/
+
+# ── Dataset (large file — not needed to run the deployed app, ──────
+# ── since app.py uses VADER, not a trained model on this data) ─────
+
+# ── Python ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+
+# ── Virtual environments ────────────────────────────────────────────
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# ── Streamlit ────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Environment / secrets ───────────────────────────────────────────
+.env
+*.env.local
+
+# ── NLTK downloaded data (re-downloaded at runtime by app.py) ───────
+nltk_data/
+
+# ── Trained model artifacts (if you later save the RNN model) ───────
+*.pt
+*.pth
+*.joblib
+*.pkl
+
+# ── IDE / Editor ─────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ── OS junk ──────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Logs ─────────────────────────────────────────────────────────────
+*.log
