@@ -12,8 +12,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import GaussianNB
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import (accuracy_score, precision_score,
-                             recall_score, f1_score, confusion_matrix)
+from sklearn.metrics import (accuracy_score, precision_score,recall_score, f1_score, confusion_matrix)
 
 # ── Page Config ───────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -52,7 +51,7 @@ html, body, [class*="css"] {{ font-family: 'Inter', sans-serif; }}
 .metric-value {{ font-size: 2rem; font-weight: 700; color: {PRIMARY}; }}
 .metric-label {{ font-size: 0.85rem; color: #777; margin-top: 0.2rem; }}
 .section-header {{
-    font-size: 1.25rem; font-weight: 700; color: #222;
+    font-size: 1.25rem; font-weight: 700; color: #ffffff;
     border-left: 4px solid {PRIMARY}; padding-left: 0.7rem;
     margin: 1.4rem 0 0.8rem 0;
 }}
